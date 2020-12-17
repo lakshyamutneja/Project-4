@@ -8,7 +8,7 @@
 dockerpath=lakshya412/udacity
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deployment udacity1 --image=lakshya412/udacity --port=80
+kubectl create deployment udacity --image=lakshya412/udacity --port=80
 # Step 3:
 # List kubernetes pods
 kubectl get pods
