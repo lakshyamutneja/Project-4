@@ -19,6 +19,15 @@ Your project goal is to operationalize this working, machine learning microservi
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
+## Prerequisites & Assumptions
+
+- Github and linked CircleCI accounts
+- Workstation with a BASH terminal.
+    - This project was tested on an Ubuntu 20.04 workstation.
+- Working Docker, Kubectl, Python3.7, hadolint and Minikube Installations on your workstation.
+- Knoledge of working with python3 virtual environments
+
+
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
@@ -40,3 +49,12 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Running Locally
+
+1. Create and activate a python3.7 virtual environment by running `make setup`
+    - All following instructions must be run with the environment activated
+2. Install dependenices with `make install`
+3. You can lint the applicaiton and docker files with `make lint` at this point if you wish.
+4. Run the python application with `python app.py`
+5. Verfy the api is listing by visiting localhost:80
