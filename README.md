@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+{<img src="https://circleci.com/gh/lakshyamutneja/Project-4.svg?style=svg" alt="<ORG_NAME>" />}[https://circleci.com/gh/lakshyamutneja/Project-4]
 
 ## Project Overview
 
