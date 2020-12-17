@@ -1,0 +1,18 @@
+<paste log output from Kubernetes-mediated prediction, here>
+error: failed to create deployment: deployments.apps "udacity" already exists
+
+AME                       READY   STATUS    RESTARTS   AGE
+udacity-5b7cbf9779-sv269   1/1     Running   0          14s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
+#### Predicted Value 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
