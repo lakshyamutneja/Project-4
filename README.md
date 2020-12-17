@@ -58,3 +58,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 3. You can lint the applicaiton and docker files with `make lint` at this point if you wish.
 4. Run the python application with `python app.py`
 5. Verfy the api is listing by visiting localhost:80
+
+
+### Files
+***output_txt_files/docker_out.txt*** contains logs returned after running the app with Docker
+***output_txt_files/kubernetes_out.txt*** containes logs and the prediction returned after running the app with Kubernetes(run_kubernetes.sh)
+***run_docker.sh*** contains the steps to get Docker running the app locally
+***run_kubernetes.sh*** contains the steps to get Kubernetes running the app locally
+***upload_docker.sh*** contains the steps to upload the image to the Docker repository
