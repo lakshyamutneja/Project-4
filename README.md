@@ -1,4 +1,4 @@
-{<img src="https://circleci.com/gh/lakshyamutneja/Project-4.svg?style=svg" alt="<ORG_NAME>" />}[https://circleci.com/gh/lakshyamutneja/Project-4]
+[![lakshyamutneja](https://circleci.com/gh/lakshyamutneja/Project-4.svg?style=svg)](https://app.circleci.com/pipelines/github/lakshyamutneja/Project-4)
 
 ## Project Overview
 
